@@ -90,7 +90,7 @@ AS
 $$
 DECLARE 
 	return_value boolean = false;
-	calculated_check_number char(1);
+	calculated_check_number varchar(2);
 	check_number_character char(1) = SUBSTRING(vin, 9, 1);
 BEGIN
 
